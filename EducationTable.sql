@@ -9,6 +9,8 @@ create table Education
   degree varchar(30)
 );
 
+alter table education add primary key (id);
+
 insert into Education (
     SCHOOL, 
     degree, 
